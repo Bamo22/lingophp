@@ -17,7 +17,7 @@ if(!empty($_POST['userin']))
 {
 	if(isset($_SESSION['woord']) || !empty($_SESSION['woord']) || $_SESSION['woord'] != "")
 	{
-			$_SESSION['woord'][$_SESSION['counter']][$i]= str_split($_POST['userin']{$i});
+			$_SESSION['woord'][$_SESSION['counter']][$i]= str_split($_POST['userin']);
 	}
 	else
 	{
